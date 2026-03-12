@@ -140,9 +140,8 @@ section{padding:6rem 2.5rem;position:relative;}
 .proj-title{font-family:'Plus Jakarta Sans',sans-serif;font-size:1.1rem;font-weight:700;color:var(--ink);margin-bottom:.65rem;line-height:1.25;}
 .proj-desc{font-size:.87rem;color:var(--ink2);line-height:1.75;margin-bottom:1.4rem;}
 .proj-tags{display:flex;flex-wrap:wrap;gap:.4rem;}
-.proj-arrow{position:absolute;top:1.5rem;right:1.5rem;width:28px;height:28px;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--ink3);transition:all .25s;}
+.proj-arrow{position:absolute;top:1.5rem;right:1.5rem;width:28px;height:28px;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:var(--ink3);transition:all .25s;text-decoration:none;cursor:pointer;z-index:10;pointer-events:all;}
 .proj-card:hover .proj-arrow{background:var(--blue);border-color:var(--blue);color:#fff;transform:rotate(45deg);}
-
 /* SKILLS */
 #skills{background:var(--bg2);}
 .skills-wrap{display:grid;grid-template-columns:1fr 1fr;gap:4rem;}
@@ -396,60 +395,55 @@ footer span{font-family:'Fira Code',monospace;font-size:.63rem;color:rgba(255,25
   </div>
   <div class="projects-grid stagger">
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81/MultiThreaded-Web-Server.git" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_01 · SYSTEMS / JAVA</span>
       <h3 class="proj-title">Multi-Threaded Web Server</h3>
       <p class="proj-desc">Concurrent HTTP server using raw Java sockets. Thread-per-request model, request parsing, client-server communication — no frameworks, pure engineering instinct.</p>
       <div class="proj-tags"><span class="ptag">Java</span><span class="ptag">Sockets</span><span class="ptag">Concurrency</span><span class="ptag">HTTP</span><span class="ptag">DSA</span></div>
     </div>
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81/Train-Ticket-Booking-java-console-application.git" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_02 · BACKEND SYSTEM</span>
       <h3 class="proj-title">CLI Ticket Booking</h3>
       <p class="proj-desc">Command-line ticket booking system with full reservation workflows, seat management, and persistent storage. Clean layered architecture — no UI fluff, just solid backend logic.</p>
       <div class="proj-tags"><span class="ptag">Java</span><span class="ptag">Spring Boot</span><span class="ptag">MySQL</span></div>
     </div>
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81/InstaCampus-A-marketplace-for-college-events.git" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_03 · BACKEND SYSTEM</span>
       <h3 class="proj-title">InstaCampus Platform</h3>
       <p class="proj-desc">Microservices backend for college sponsor &amp; vendor management. RESTful APIs, JWT auth with Spring Security, and optimized relational schemas. Designed to scale.</p>
       <div class="proj-tags"><span class="ptag">Spring Boot</span><span class="ptag">MySQL</span><span class="ptag">Microservices</span><span class="ptag">JWT</span><span class="ptag">Spring Security</span></div>
     </div>
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_04 · AI / ML</span>
       <h3 class="proj-title">Smart SOS Response System</h3>
       <p class="proj-desc">Hackathon-winning system that intelligently reduces emergency response times during SOS situations. Real-time signal routing, optimized dispatch logic, and a live dashboard — built under pressure, shipped to win.</p>
       <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">FastAPI</span><span class="ptag">Networking</span><span class="ptag">HTML/CSS</span><span class="ptag">JavaScript</span></div>
     </div>
-
-
-
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81/Bridge-Bite.git" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_05 · MOBILE APP</span>
-      <h3 class="proj-title">FoodBridge</h3>
+      <h3 class="proj-title">BridgeBite</h3>
       <p class="proj-desc">Cross-platform food donation platform connecting donors, NGOs, and delivery partners. Real-time workflows, role-based auth, and location-aware tracking — built from scratch.</p>
       <div class="proj-tags"><span class="ptag">Flutter</span><span class="ptag">Firebase Auth</span><span class="ptag">Firestore</span><span class="ptag">Realtime DB</span><span class="ptag">Dart</span></div>
     </div>
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81/MindEase-A-mental-health-campanion.git" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_06 · MOBILE APP</span>
       <h3 class="proj-title">MindEase</h3>
       <p class="proj-desc">AI-powered mental health companion that provides personalized emotional support, mood tracking, and guided wellness journeys — meeting users where they are, not where you'd expect.</p>
       <div class="proj-tags"><span class="ptag">Flutter</span><span class="ptag">Firebase</span><span class="ptag">Dart</span></div>
     </div>
     <div class="proj-card">
-      <div class="proj-arrow">↗</div>
+      <a href="https://github.com/vaibhavhub81" target="_blank" class="proj-arrow">↗</a>
       <span class="proj-num">_07 · MOBILE APP</span>
       <h3 class="proj-title">HabitTracker</h3>
       <p class="proj-desc">Daily habit tracking app designed to build consistency and improve personal life balance. Streak management, progress visualization, and nudges that actually keep you accountable.</p>
       <div class="proj-tags"><span class="ptag">Flutter</span><span class="ptag">Firebase</span><span class="ptag">Dart</span></div>
     </div>
-    
-    
-  </div>
+</div>
 </section>
 
 <div class="glitch-bar"></div>
@@ -580,12 +574,21 @@ const skillObs=new IntersectionObserver(e=>{if(e[0].isIntersecting)setTimeout(()
 const sk=document.getElementById('skills');if(sk)skillObs.observe(sk);
 
 /* TILT on project cards */
+/* TILT on project cards */
 document.querySelectorAll('.proj-card').forEach(card=>{
   card.addEventListener('mousemove',e=>{
+    if(e.target.closest('.proj-arrow')) return;
     const r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
     card.style.transform=`perspective(700px) rotateY(${x*9}deg) rotateX(${-y*9}deg) translateZ(8px)`;
   });
   card.addEventListener('mouseleave',()=>{card.style.transform='perspective(700px) rotateY(0) rotateX(0) translateZ(0)';});
+  card.addEventListener('click',e=>{
+    const arrow=card.querySelector('.proj-arrow');
+    if(arrow && !e.target.closest('.proj-arrow')){
+      // click anywhere on card also opens the link
+      window.open(arrow.href,'_blank');
+    }
+  });
 });
 
 /* ACTIVE NAV HIGHLIGHT */
